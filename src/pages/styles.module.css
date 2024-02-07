@@ -1,3 +1,14 @@
 .pagina {
     background-color: azure;
 }
+.pagina header{
+    height: 150px;
+    background-color: antiquewhite;
+}
+.pagina main {
+    height: 500px;
+}
+.pagina footer {
+    height: 200px;
+    background-color: cadetblue;
+}

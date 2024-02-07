@@ -9,7 +9,20 @@ const ClientComponent = dynamic(() => import('../components/ClientComponent'), {
 const IndexPage: React.FC = () => {
   return (
     <div className={styles.pagina}>
-      <h1>Index Page</h1>
+      <header>
+        <h1>cabecera</h1>
+      </header>
+      <main>
+        <section>
+          <h2>Harold Maldonado</h2>
+        </section>
+        <section>
+          <h2>Main</h2>
+        </section>
+      </main>
+      <footer>
+        <p>Footer</p>
+      </footer>
       <ClientComponent />
     </div>
   );
